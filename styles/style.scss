@@ -382,7 +382,6 @@ body{
                 font-size: 3rem;
                 width: 40rem;
             }
-
         }
 
         //responsive segundo contenedor se amplia contenido y posicion horizontal
@@ -455,9 +454,7 @@ body{
                     width: 21.5rem;
                     height: 34.4rem;
                 }
-            }
-
-            
+            }            
         }
         //cuarto contendor se pocisiona texto se acomoda imagen
         .testimonials{
@@ -471,7 +468,6 @@ body{
                     flex-direction: row;
                     justify-content: center;
                     gap: 10vw;
-                    // gap: calc(10vw + 5px);
                     .set{
                         gap: 2rem;
                         img{
