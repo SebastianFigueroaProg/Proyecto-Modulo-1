@@ -1,0 +1,15 @@
+
+// Elementos visibles solo para desktop
+.navbar{
+    .menu{
+        display: none;
+    }
+}
+
+.conteiner-primary{
+    .contents{
+        img{
+            display: none;
+        }
+    }    
+}
