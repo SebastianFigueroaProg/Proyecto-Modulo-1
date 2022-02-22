@@ -233,9 +233,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #fff;
   font-size: 1.65rem;
   font-weight: 300;
-  color: #fff;
 }
 
 .conteiner-primary .contents .content-second .text-content2 {
@@ -265,9 +265,9 @@ body {
   font-size: 1.3rem;
   border-radius: 2rem;
   font-weight: 500;
-  padding: 0.7rem 3.5rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  padding: 0.7rem 3.5rem;
 }
 
 .conteiner-primary .contents .content-second .buttons .btn-movil {
@@ -277,9 +277,9 @@ body {
   font-size: 1.3rem;
   border-radius: 2rem;
   font-weight: 500;
-  padding: 0.7rem 4rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  padding: 0.7rem 4rem;
 }
 
 .conteiner-primary .contents .content-second .buttons .btn-pc:hover, .conteiner-primary .contents .content-second .buttons .btn-movil:hover {
