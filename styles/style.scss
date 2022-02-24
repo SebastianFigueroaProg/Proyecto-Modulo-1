@@ -360,7 +360,11 @@ body{
 
     //responsive hero se amplia contenido y posicion
     .conteiner-primary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .hero{
+            width: 99.9%;
             height: 32rem;
             flex-direction: row-reverse;
             justify-content: space-around;
@@ -383,16 +387,16 @@ body{
         }
 
         //responsive segundo contenedor se amplia contenido y posicion horizontal
-        .description{      
+        .description{     
+            width: 99.9%;
             height: 32em;
-            align-items: baseline;
             justify-content: center;
-            padding-left: 5.6rem;  
             .text-desc{
                 align-items: flex-start;
                 text-align: start;
                 gap: 2rem;
                 max-width: 60rem;
+                margin-left: -250px;
             }
             .subtitle{
                 font-size: 4rem;
@@ -409,6 +413,7 @@ body{
         }
         //tercer contendor se pocisiona text ose agrega imagen
         .contents{
+            width: 99.9%;
             height: 35rem;
             display: grid;
             grid-template-columns: auto auto;
@@ -457,10 +462,13 @@ body{
         //cuarto contendor se pocisiona texto se acomoda imagen
         .testimonials{
             align-items: flex-start;
-            padding-left: 80px;
-            .test{
-                font-size: 4.5rem;
+            .ghost-text{
+                margin-left: -35px;;
+                .test{
+                    font-size: 4.5rem;
+                }
             }
+            
             .conteiner{  
                 .bubble{
                     flex-direction: row;

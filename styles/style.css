@@ -497,7 +497,20 @@ body {
     color: #fff;
     background-color: #FC4850;
   }
+  .conteiner-primary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .conteiner-primary .hero {
+    width: 99.9%;
     height: 32rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -523,14 +536,11 @@ body {
     width: 40rem;
   }
   .conteiner-primary .description {
+    width: 99.9%;
     height: 32em;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-left: 5.6rem;
   }
   .conteiner-primary .description .text-desc {
     -webkit-box-align: start;
@@ -539,6 +549,7 @@ body {
     text-align: start;
     gap: 2rem;
     max-width: 60rem;
+    margin-left: -250px;
   }
   .conteiner-primary .description .subtitle {
     font-size: 4rem;
@@ -558,6 +569,7 @@ body {
     gap: 3rem;
   }
   .conteiner-primary .contents {
+    width: 99.9%;
     height: 35rem;
     display: -ms-grid;
     display: grid;
@@ -625,9 +637,11 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding-left: 80px;
   }
-  .conteiner-primary .testimonials .test {
+  .conteiner-primary .testimonials .ghost-text {
+    margin-left: -35px;
+  }
+  .conteiner-primary .testimonials .ghost-text .test {
     font-size: 4.5rem;
   }
   .conteiner-primary .testimonials .conteiner .bubble {
